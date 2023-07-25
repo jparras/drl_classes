@@ -7,6 +7,8 @@ The recommended way of executing these codes is to use Google Colab. The simples
 
 A second option is to go to Colab, and in the Open options, select Github and add this repository.
 
+And finally, you can also download the code and execute it in your own machine, by installing all required dependencies.
+
 # More websites
 
 If you are interested in DRL and want to keep on learning, it might be worthy checking the following resources:
