@@ -1,6 +1,14 @@
 # DRL codes
 Minimal DRL implementations used for teaching. All algorithms are coded using Torch. Note that these algorithms are for pedagogical purposes, and hence, they include minimal implementation tricks, as the purpose of this code is to have a clear view on how DRL codes are implemented (thus, the performance of these codes may be low compared to state-of-the-art implementations as Stable Baselines 3).
 
+The algorithms implemented for model-free DRL are the following (all tested on the Cartpole problem):
+* DDQN (Double Deep Q-Networks)
+* VPG (Vanilla Policy Gradient)
+* A2C (Advantage Actor Critic)
+* TRPO (Trust Region Policy Optimization, note that in this case, we use the implementation of Stable Baselines 3 instead of providing an implementation to show a state-of-the-art library)
+* DDPG (Deep Deterministic Policy Gradient)
+
+
 # Execution in Google Colab
 
 The recommended way of executing these codes is to use Google Colab. The simplest way of doing that is to navigate to the code you want to execute, and then replace `github.com` in the URL by `githubtocolab.com`.
