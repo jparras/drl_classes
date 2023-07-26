@@ -3,10 +3,10 @@ Minimal DRL implementations used for teaching. All algorithms are coded using To
 
 ## Model-free
 The algorithms implemented for model-free DRL are the following (all tested on the Cartpole problem):
-* [DDQN](/model_free/DDQN_cartpole.ipnyb) (Double Deep Q-Networks)
-* [VPG](/model_free/VPG_cartpole.ipnyb) (Vanilla Policy Gradient)
-* [A2C](/model_free/A2C_cartpole.ipnyb) (Advantage Actor Critic)
-* [TRPO](/model_free/TRPO_cartpole.ipnyb) (Trust Region Policy Optimization, note that in this case, we use the implementation of Stable Baselines 3 instead of providing an implementation to show a state-of-the-art library)
+* [DDQN](/model_free/DDQN_cartpole.ipynb) (Double Deep Q-Networks)
+* [VPG](/model_free/VPG_cartpole.ipynb) (Vanilla Policy Gradient)
+* [A2C](/model_free/A2C_cartpole.ipynb) (Advantage Actor Critic)
+* [TRPO](/model_free/TRPO_cartpole.ipynb) (Trust Region Policy Optimization, note that in this case, we use the implementation of Stable Baselines 3 instead of providing an implementation to show a state-of-the-art library)
 * [DDPG](/model_free/DDPG_cartpole.ipnyb) (Deep Deterministic Policy Gradient)
 
 ## Model-based
