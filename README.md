@@ -7,7 +7,7 @@ The algorithms implemented for model-free DRL are the following (all tested on t
 * [VPG](/model_free/VPG_cartpole.ipynb) (Vanilla Policy Gradient)
 * [A2C](/model_free/A2C_cartpole.ipynb) (Advantage Actor Critic)
 * [TRPO](/model_free/TRPO_cartpole.ipynb) (Trust Region Policy Optimization, note that in this case, we use the implementation of Stable Baselines 3 instead of providing an implementation to show a state-of-the-art library)
-* [DDPG](/model_free/DDPG_cartpole.ipnyb) (Deep Deterministic Policy Gradient)
+* [DDPG](/model_free/DDPG_cartpole.ipynb) (Deep Deterministic Policy Gradient)
 
 ## Model-based
 For model-based DRL, the only implemented code is [AlphaZero](/model_based/AlphaZero.ipynb) (tested on tic-tac-toe).
