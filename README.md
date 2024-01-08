@@ -1,7 +1,19 @@
 # DRL codes
 Minimal DRL implementations used for teaching. All algorithms are coded using Torch. Note that these algorithms are for pedagogical purposes, and hence, they include minimal implementation tricks, as the purpose of this code is to have a clear view on how DRL codes are implemented (thus, the performance of these codes may be low compared to state-of-the-art implementations as Stable Baselines 3).
 
-## Model-free
+## Basic methods
+The codes in this section correspond to some basic ideas needed to understand the basics of RL:
+* [Multi-armed bandit](/basics/multi_armed_bandit.ipynb), which is devoted to implementing the epsilon-greedy algorithm, and how to use it to solve the multi-armed bandit problem.
+* [Stationary distribution of an MP](/basics/stationary_distribution_MP.ipynb), which is devoted to computing the stationary distribution of a Markov Process (MP).
+* [Bellman fixed point for PE](/basics/bellman_PE.ipynb), which is devoted to implementing the Bellman fixed point equations for policy evaluation (PE) in a simple MDP.
+* [Bellman fixed point for PE in a Random Walk](/basics/bellman_PE_rw.ipynb), is similar to the previous code, but using a Random Walk with terminal states as the MDP.
+* [Bellman random Policy Search](/basics/bellman_PS.ipynb), which is devoted to finding the optimal Bellman Policy using random search.
+* [Optimal policy using Bellman Equations](/basics/bellman_opt.ipynb), which is devoted to finding the optimal policy by solving the Bellman Equations in a simple case of discrete actions.
+* [The recycling robot](/basics/recycling_robot.ipynb), which is devoted to finding the optimal policy by solving the Bellman Equations.
+
+## Classic RL
+
+## Model-free DRL
 The algorithms implemented for model-free DRL are the following (all tested on the Cartpole problem):
 * [DDQN](/model_free/DDQN_cartpole.ipynb) (Double Deep Q-Networks)
 * [VPG](/model_free/VPG_cartpole.ipynb) (Vanilla Policy Gradient)
@@ -9,8 +21,20 @@ The algorithms implemented for model-free DRL are the following (all tested on t
 * [TRPO](/model_free/TRPO_cartpole.ipynb) (Trust Region Policy Optimization, note that in this case, we use the implementation of Stable Baselines 3 instead of providing an implementation to show a state-of-the-art library)
 * [DDPG](/model_free/DDPG_cartpole.ipynb) (Deep Deterministic Policy Gradient)
 
-## Model-based
+## Model-based DRL
 For model-based DRL, the only implemented code is [AlphaZero](/model_based/AlphaZero.ipynb) (tested on tic-tac-toe).
+
+## REIL students guide
+
+| Exercise | Link | Observations |
+|----------| ----------- | ----------- |
+| 2.1      | [Multi-armed bandit](/basics/multi_armed_bandit.ipynb)       | Exercise to be completed by the student |
+| 3.2      | [Stationary distribution of an MP](/basics/stationary_distribution_MP.ipynb)       | Exercise to be completed by the student |
+| 3.3      | [Bellman fixed point for PE](/basics/bellman_PE.ipynb)       | Exercise to be completed by the student |
+| 3.4      | [Bellman fixed point for PE in a Random Walk](/basics/bellman_PE_rw.ipynb)       | Exercise to be completed by the student |
+| 3.5      | [Bellman random Policy Search](/basics/bellman_PS.ipynb)       | Exercise to be completed by the student |
+| 3.6      | [Optimal policy using Bellman Equations](/basics/bellman_opt.ipynb)       | Exercise to be completed by the student |
+| 3.7      | [The recycling robot](/basics/recycling_robot.ipynb)       | Exercise to be completed by the student |
 
 # Execution in Google Colab
 
