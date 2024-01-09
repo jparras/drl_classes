@@ -21,6 +21,11 @@ The following examples and exercises correspond to some classic RL algorithms, i
 * [Monte Carlo and Temporary Difference](/classical_rl/mc_td_rw.ipynb), which is devoted to implementing the Monte Carlo and Temporal Difference algorithms for a simple MDP.
 * [SARSA and Q-learning](/classical_rl/sarsa_ql_rw.ipynb), which is devoted to implementing the SARSA and Q-learning algorithms for a simple MDP.
 * [Cliff](/classical_rl/cliff.ipynb), which is devoted to implementing the SARSA and Q-learning algorithms for the Cliff problem .
+* [Feature basis for linear approximations](/classical_rl/linear_intro.ipynb), which is devoted to implementing a feature basis for a linear approximation.
+* [Model-based prediction using linear approximations](/classical_rl/linear_mb.ipynb), which is devoted to implementing BPE (Bellman Projected Equation), a model-based prediction algorithm using linear approximations.
+* [Model-free prediction using linear approximations](/classical_rl/lstd.ipynb), which is devoted to implementing LSTD, a model-free prediction algorithm using linear approximations.
+* [Model-free control using linear approximations](/classical_rl/lspi.ipynb), which is devoted to implementing LSPI, a model-free control algorithm using linear approximations.
+* [Linear approximation limits](/classical_rl/linear_limits.ipynb), which is an example devoted to showing the limits of linear approximations.
 
 ## Model-free DRL
 The following examples implement model-free DRL algorithms (all tested on the Cartpole problem):
@@ -35,8 +40,8 @@ For model-based DRL, the only implemented example is [AlphaZero](/model_based/Al
 
 ## REIL students guide
 
-| Link                                                     | Observations |
-|----------------------------------------------------------| ----------- |
+| Link                                                     | Observations                            |
+|----------------------------------------------------------|-----------------------------------------|
 | [Exercise 2.1](/basics/multi_armed_bandit.ipynb)         | Exercise to be completed by the student |
 | [Exercise 3.2](/basics/stationary_distribution_MP.ipynb) | Exercise to be completed by the student |
 | [Exercise 3.3](/basics/bellman_PE.ipynb)                 | Exercise to be completed by the student |
@@ -52,6 +57,17 @@ For model-based DRL, the only implemented example is [AlphaZero](/model_based/Al
 | [Exercise 5.3](/classical_rl/mc_td_rw.ipynb)             | Exercise to be completed by the student |
 | [Exercise 5.4](/classical_rl/sarsa_ql_rw.ipynb)          | Exercise to be completed by the student |
 | [Exercise 5.5](/classical_rl/cliff.ipynb)                | Exercise to be completed by the student |
+| [Exercise 6.1](/classical_rl/linear_intro.ipynb)         | Exercise to be completed by the student |
+| [Exercise 6.2](/classical_rl/linear_mb.ipynb)            | Exercise to be completed by the student |
+| [Exercise 6.3](/classical_rl/lstd.ipynb)                 | Exercise to be completed by the student |
+| [Exercise 6.4](/classical_rl/lspi.ipynb)                 | Exercise to be completed by the student |
+| [Example 7.1](/classical_rl/linear_limits.ipynb)         | Code for the example in the slides      |
+| [Example 7.2](/model_free/DDQN_cartpole.ipynb)           | Code for the example in the slides |
+| [Example 7.3](/model_free/VPG_cartpole.ipynb)            | Code for the example in the slides |
+| [Example 7.4](/model_free/A2C_cartpole.ipynb)            | Code for the example in the slides |
+| [Example 7.5](/model_free/TRPO_cartpole.ipynb)           | Code for the example in the slides |
+| [Example 7.6](/model_free/DDPG_cartpole.ipynb)           | Code for the example in the slides |
+| [Example 7.7](/model_based/AlphaZero.ipynb)              | Code for the example in the slides |
 
 # Execution in Google Colab
 
