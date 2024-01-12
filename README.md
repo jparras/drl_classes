@@ -21,6 +21,7 @@ The following examples and exercises correspond to some classic RL algorithms, i
 * [Value Iteration](/classical_rl/value_iteration.ipynb), which is devoted to implementing the value iteration algorithm for a simple MDP.
 * [Grid World](/classical_rl/grid_world.ipynb), which is devoted to review the iterative methods (PE, PI, VI) in a Grid World problem.
 * [Every-visit Monte-Carlo](/classical_rl/monte_carlo_rw.ipynb), which is devoted to implementing the every-visit Monte-Carlo algorithm for a simple MDP.
+* [Off-policy Monte-Carlo via Importance Sampling](/classical_rl/monte_carlo_rw_off.ipynb), which is devoted to implementing the off-policy Monte-Carlo algorithm using Importance Sampling for a simple MDP.
 * [Monte Carlo and Temporary Difference in a simple MDP](/classical_rl/mc_td_two_state.ipynb), which is an example devoted to implementing the Monte Carlo and Temporal Difference algorithms for a simple MDP.
 * [Monte Carlo and Temporary Difference in the Cliff](/classical_rl/mc_td_cliff.ipynb), which is an example devoted to implementing the Monte Carlo and Temporal Difference algorithms for the Cliff.
 * [Monte Carlo and Temporary Difference in a random walk](/classical_rl/mc_td_rw.ipynb), which is devoted to implementing the Monte Carlo and Temporal Difference algorithms for a random walk.
@@ -83,6 +84,7 @@ For model-based DRL, the only implemented example is [AlphaZero](/model_based/Al
 | [Exercise 4.3](/classical_rl/value_iteration.ipynb)      | Exercise to be completed by the student |
 | [Exercise 4.4](/classical_rl/grid_world.ipynb)           | Exercise to be completed by the student |
 | [Exercise 5.1](/classical_rl/monte_carlo_rw.ipynb)       | Exercise to be completed by the student |
+| [Exercise 5.2](/classical_rl/monte_carlo_rw_off.ipynb)   | Exercise to be completed by the student |
 | [Exercise 5.3](/classical_rl/mc_td_rw.ipynb)             | Exercise to be completed by the student |
 | [Exercise 5.4](/classical_rl/sarsa_ql_rw.ipynb)          | Exercise to be completed by the student |
 | [Exercise 5.5](/classical_rl/sarsa_ql_cliff.ipynb)       | Exercise to be completed by the student |
